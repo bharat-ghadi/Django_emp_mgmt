@@ -1,0 +1,2 @@
+# Django_Employee_mgmt
+  Django framework based employee management system is created. A styling is done with help  of bootstrap classes. It consist 4 pages •	View all records: This will show all records by fetching objects of employee records from django models. •	Add Employee and Delete : This will allow us to add and delete employee records with help of post method. •	Filter Employee: This will allow us to search records based on Name and Department and Role.
