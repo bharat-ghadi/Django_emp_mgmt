@@ -1,0 +1,13 @@
+.body_bg {
+      background: url(../images/bg1.png);
+      position: relative;
+      isolation:isolate;
+      background-size: cover;
+}
+h1 {
+  color: white !important;
+  text-align: center;
+}
+.form-label,h4 {
+  color: white !important;
+}
