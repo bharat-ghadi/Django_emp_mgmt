@@ -53,10 +53,22 @@ python manage.py runserver
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ## Screenshots
-
+### View all employees:
+- This allows us to view all records in the database
 ![View All Empployee](https://github.com/bharat-ghadi/Django_emp_mgmt/blob/main/screenshots/view_all_emp.PNG)
+### Add employee:
+- This allows us to add employee records in the database.
+- The styling is done by bootstrap classes i.e. form-label , form-control
 ![Add Empployee](https://github.com/bharat-ghadi/Django_emp_mgmt/blob/main/screenshots/add_emp.PNG)
+### Remove employee:
+- This allows us to remove employee records in the database.
+- The dropdown reocrds are fetched from database.
 ![Remove Empployee](https://github.com/bharat-ghadi/Django_emp_mgmt/blob/main/screenshots/remove_emp.PNG)
+### Filter employee:
+- This allows us to Filter employee records in the database.
+- The employee can be filter by name, role or dept.
+- magical method icontains is  used to achieve filter action i.e. emps.filter(role__name__icontains=role)
+
 ![Filter Empployee](https://github.com/bharat-ghadi/Django_emp_mgmt/blob/main/screenshots/filter_emp.PNG)
 
 ## Support
